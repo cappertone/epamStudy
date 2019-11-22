@@ -1,4 +1,4 @@
-package com.epam.autumn.politech.HT1;
+package com.epam.autumn.politech.ht1;
 
 import java.util.Scanner;
 

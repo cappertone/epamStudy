@@ -1,6 +1,6 @@
-package com.epam.autumn.politech.HT2;
+package com.epam.autumn.politech.ht2;
 
-public class Task1 {
+public class MaxSubSumFinder {
 
     public  int maxSubArraySumKagane(int[] array) {
         if (array.length <= 0) {

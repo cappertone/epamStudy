@@ -1,14 +1,12 @@
-package com.epam.autumn.politech.HT2;
+package com.epam.autumn.politech.ht2;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
-public class Task2Test {
+public class DuplicateRemoverTest {
 
        @Test
     public void printArray() {
-           Task2 modifier = new Task2();
+           DuplicateRemover modifier = new DuplicateRemover();
            int[] arr1 = {3,2,2,3};
            int value1 = 3;
            int[] arr1out = {2,2};

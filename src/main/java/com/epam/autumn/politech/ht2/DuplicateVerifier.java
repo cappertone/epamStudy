@@ -1,8 +1,8 @@
-package com.epam.autumn.politech.HT2;
+package com.epam.autumn.politech.ht2;
 
 import java.util.Arrays;
 
-public class Task5 {
+public class DuplicateVerifier {
     public boolean containDuplicate(int [] array){
         Arrays.sort(array);
         for (int index = 0; index < array.length-1; index++) {

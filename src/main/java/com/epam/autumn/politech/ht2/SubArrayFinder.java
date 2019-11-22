@@ -1,7 +1,7 @@
-package com.epam.autumn.politech.HT2;
+package com.epam.autumn.politech.ht2;
 import java.util.Arrays;
 
-public class Task3 {
+public class SubArrayFinder {
 
     public  int[] findSumSubarray(int[] nums, int target) {
         int[] n = nums.clone();
@@ -30,6 +30,4 @@ public class Task3 {
         }
         return index;
     }
-
-
 }

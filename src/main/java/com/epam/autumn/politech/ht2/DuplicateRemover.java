@@ -1,6 +1,6 @@
-package com.epam.autumn.politech.HT2;
+package com.epam.autumn.politech.ht2;
 
-public class Task2 {
+public class DuplicateRemover {
 
     public  int modifyArray(int[] arr) {
         int length = arr.length;
