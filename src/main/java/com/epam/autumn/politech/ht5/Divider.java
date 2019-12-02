@@ -1,6 +1,5 @@
-package com.epam.autumn.politech.ht5.divideList;
+package com.epam.autumn.politech.ht5;
 
-import java.util.Collections;
 import java.util.LinkedList;
 
 public class Divider {

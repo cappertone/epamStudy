@@ -2,15 +2,14 @@ package com.epam.autumn.politech.ht4.discount;
 
 import java.text.DecimalFormat;
 import java.util.Date;
-import java.util.Objects;
 
-public class Receipt {
+public class GenerateReceipt {
     private Date date = new Date();
     private double total;
     private double discount;
     private double amountToPay;
 
-    Receipt(double total, double discount, double amountToPay) {
+    GenerateReceipt(double total, double discount, double amountToPay) {
         this.total = total;
         this.discount = discount;
         this.amountToPay = amountToPay;

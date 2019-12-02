@@ -1,6 +1,4 @@
-package com.epam.autumn.politech.ht5.duplicatorRemover2ndRound;
-
-import java.util.Arrays;
+package com.epam.autumn.politech.ht5;
 
 public class DupRemover {
 
@@ -8,15 +6,14 @@ public class DupRemover {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-        int i = 0;
+        int count = 0;
         for (int j = 0; j < nums.length; j++) {
-            if (nums[j] != nums[i]) {
-                i++;
-                nums[i] = nums[j];
+            if (nums[j] != nums[count]) {
+                count++;
+                nums[count] = nums[j];
             }
         }
-
-        return i + 1;
+        return count + 1;
     }
 
     public  void printresult(int[] arr, int length) {
@@ -25,6 +22,4 @@ public class DupRemover {
             System.out.print(" ");
         }
     }
-
-
 }

@@ -1,14 +1,12 @@
 package com.epam.autumn.politech.ht5.duplicatorRemover2ndRound;
 
+import com.epam.autumn.politech.ht5.DupRemover;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
-import java.io.OutputStream;
 import java.io.PrintStream;
-import java.util.Arrays;
-import java.util.LinkedList;
 
 import static org.junit.Assert.*;
 

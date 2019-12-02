@@ -1,8 +1,7 @@
 package com.epam.autumn.politech.ht5.toBTSConverter;
 
+import com.epam.autumn.politech.ht5.ArrayToBTSConverter;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class ArrayToBTSConverterTest {
     ArrayToBTSConverter converter = new ArrayToBTSConverter();

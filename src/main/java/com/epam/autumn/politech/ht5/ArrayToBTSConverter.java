@@ -1,16 +1,13 @@
-package com.epam.autumn.politech.ht5.toBTSConverter;
-
-import java.util.Collections;
+package com.epam.autumn.politech.ht5;
 
 public class ArrayToBTSConverter {
 
     public  class TreeNode {
-        int val;
+        int value;
         TreeNode left;
         TreeNode right;
-
         TreeNode(int x) {
-            val = x;
+            value = x;
         }
     }
 
@@ -28,19 +25,5 @@ public class ArrayToBTSConverter {
         node.left = nodeMaker(nums, start, middle - 1);
         node.right = nodeMaker(nums, middle + 1, end);
         return node;
-    }
-    public void printSorted(int[] arr, int start,
-                                    int end) {
-        if(start > end)
-            return;
-
-        // print left subtree
-        printSorted(arr, start*2 + 1, end);
-
-        // print root
-        System.out.print(arr[start] + " ");
-
-        // print right subtree
-        printSorted(arr, start*2 + 2, end);
     }
 }

@@ -1,6 +1,6 @@
 package com.epam.autumn.politech.ht5.divideList;
 
-import com.epam.autumn.politech.ht5.rotation.ListRotator;
+import com.epam.autumn.politech.ht5.Divider;
 import org.junit.Test;
 
 import java.util.Arrays;

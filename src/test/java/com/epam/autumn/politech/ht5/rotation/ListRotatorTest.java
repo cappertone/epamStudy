@@ -1,5 +1,6 @@
 package com.epam.autumn.politech.ht5.rotation;
 
+import com.epam.autumn.politech.ht5.ListRotator;
 import org.junit.Test;
 
 import java.util.Arrays;
